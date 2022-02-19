@@ -49,7 +49,7 @@ public class YoilTellerMVC { //http://localhost:8000/ch2/getYoilMVC?year=2021&mo
 		//VIEW 이름이 문자열이라서 반환타입 메서드이름을 String으로
 		//출력 결과를 보여줄 view의 이름을 반환
 		
-//		//출력
+//		//출력 view
 //		response.setContentType("text/html"); //text이고 html 형식이다
 //		response.setCharacterEncoding("utf-8"); //text의 인코딩이 뭔지 알려줌 없으면 한글깨짐
 //		PrintWriter out = response.getWriter(); //response 객체에서 브라우져로의 출력 스트림을 얻는다.

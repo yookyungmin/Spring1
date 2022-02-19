@@ -27,7 +27,7 @@ public class MethodCall2 {
 		
 		//4. main 메서드를 호출, 호출시 invoke 메서드를 써야댐
 		// String viewName = obj.main(2021, 10, 1, model); //리플렉션 api를 사용X 아래줄과 동일 //이전 예제랑 같은방법으로 호출
-		String viewName = (String)main.invoke(obj, new Object[] { 2021, 10, 1, model });//리플렉션 api 사용 O 	
+		String viewName = (String)main.invoke(obj, new Object[] { 2021, 10, 1, model });//리플렉션 api 사용 O 객체배열 하드코딩
 		System.out.println("viewName="+viewName);	// 4번 파트 제외하고는 앞에 Methodcall과 동일
 		
 		// Model의 내용을 출력 

@@ -25,7 +25,7 @@ public class MethodCall {
 	 String result = "";	
 	 
 	 //1.뷰의 내용을 한줄씩 읽어서 하나의 문자열로 만든다.
-	 	Scanner sc = new Scanner(new File(viewName+".txt"));
+	 	Scanner sc = new Scanner(new File(viewName+".txt")); //txt사용
 	 	
 	 	while(sc.hasNextLine())
 	 		result += sc.nextLine()+System.lineSeparator(); // lineSeparator은 서로다른 os에서 \n으로 개행 줄바꿈 실행시 오류가 날수있는걸 방지
