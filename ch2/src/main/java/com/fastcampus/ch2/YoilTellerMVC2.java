@@ -40,6 +40,7 @@ public class YoilTellerMVC2 {
         return "yoil"; // /WEB-INF/views/yoil.jsp
     }
     
+    
     private char getYoil(int year, int month, int day) {
         Calendar cal = Calendar.getInstance();
         cal.set(year, month - 1, day);
