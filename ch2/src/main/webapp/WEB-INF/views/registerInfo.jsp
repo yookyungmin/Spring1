@@ -12,11 +12,14 @@
 <h1>name=${param.name}</h1>
 <h1>email=${param.email}</h1>
 <h1>birth=${param.birth}</h1>
-<h1>sns=${paramValues.sns}</h1>
-<h1>sns=${paramValues.sns[0]}</h1>
-<h1>sns=${paramValues.sns[1]}</h1>
-<h1>sns=${paramValues.sns[2]}</h1>
-<!--sns 여러개 선택했는데 페이스북만 나온다? Str[] snsArr = request.getParameterValues("sns") 
+<h1>sns=${param.sns}</h1>
+
+<!--sns 여러개 선택했는데 페이스북만 나온다? Str[] snsArr = request.getparameterValues("sns") 
 	EL에서는? ${paramValues.sns} -->
 </body>
 </html>
+
+<!--  <h1>sns=${paramValues.sns}</h1>
+<h1>sns=${paramValues.sns[0]}</h1>
+<h1>sns=${paramValues.sns[1]}</h1>
+<h1>sns=${paramValues.sns[2]}</h1> -->
